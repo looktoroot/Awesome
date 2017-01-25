@@ -90,3 +90,12 @@
 	font-style: normal;
 }
 
+
+.page-header{
+	width: 100%;
+	height: 802px;
+	background: url(../img/bg_header.jpg) 0 0 no-repeat #333;
+	color: #fff;
+}
+
+
