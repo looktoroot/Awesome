@@ -130,9 +130,15 @@ body {
 }
 
 .page-header__top {
-	min-height: 120px;
+	border-bottom: 1px solid #4d4c4d;
+}
 
-	border-bottom: 1px solid gray;
+.page-header__top-inner {
+	height: 120px;
+}
+
+.page-header__inner {
+	height: 680px;
 }
 
 .page-header__top-inner,
@@ -142,7 +148,6 @@ body {
 	padding-right: 30px;
 	padding-left: 30px;
 }
-
 
 
 .logo {
@@ -158,24 +163,62 @@ body {
 
 .logo--font {
 	font-weight: 400;
-	font-size: 40px;
 	font-family: pacifico, sans-serif;
-	color: lightgreen;
+	color: #1dde85;
 	text-transform: uppercase;
 	font-style: normal;
 }
 
 .page-header__nav {
 	float: right;
+	width: 70%;
+	height: 120px;
+}
+
+.page-header__nav-list {
+	float: right;
+	margin-top: 55px;
+	margin-right: 70px;
 }
 
 .page-header__nav-item {
 	display: inline-block;
+	margin-left: 40px;
 }
+
 
 .page-header__nav-item a {
 	font-weight: 300;
 	color: #ffffff;
 	text-transform: uppercase;
 	text-decoration: none;
+}
+
+.page-header__text {
+	padding-top: 255px;
+
+	text-align: center;
+}
+
+.page-header__title {
+	margin-bottom: 40px;
+
+	font-weight: 400;
+	font-size: 48px;
+	font-family: exo, sans-serif;
+	font-style: normal;
+}
+
+.page-header__title--font {
+	font-weight: 900;
+	color: #1dde85;
+	text-transform: uppercase;
+}
+
+.page-header__description {
+	padding: 0 75px;
+
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 36px;
 }
