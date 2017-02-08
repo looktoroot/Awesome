@@ -125,8 +125,7 @@ body {
 
 	color: #ffffff;
 
-	background: url(../img/bg_header.jpg) 0 0 no-repeat #333333;
-	background-size: cover;
+	background: url(../img/bg_header.jpg) 0 0/cover no-repeat #16130f;
 }
 
 .page-header__top {
@@ -221,4 +220,62 @@ body {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 36px;
+}
+
+.page-content {
+	height: 1000px;
+
+	background-color: #fffcf4;
+}
+
+.page-content-inner {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+.welcome-block {
+	margin-bottom: 70px;
+	padding-top: 123px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+	text-align: center;
+}
+
+.welcome-block__title {
+	margin-bottom: 45px;
+
+	font-weight: 500;
+	font-size: 30px;
+	font-style: normal;
+}
+
+.welcome-block__title--font {
+	color: #1dde85;
+	text-transform: uppercase;
+}
+
+.welcome-block__description {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.our-skills {
+	text-align: center;
+}
+
+.our-skills__skill {
+	display: inline-block;
+	width: 360px;
+	height: 250px;
+	margin-right: 41px;
+	margin-bottom: 40px;
+
+	border: 1px solid #cac8c5;
+}
+
+.our-skills__skill:nth-child(3n+3) {
+	margin-right: 0;
 }
