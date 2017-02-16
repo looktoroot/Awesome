@@ -279,6 +279,7 @@ body {
 
 	vertical-align: top;
 	text-align: center;
+	text-decoration: none;
 
 	outline: 1px solid #cac8c5;
 }
@@ -291,61 +292,24 @@ body {
 	outline: 2px solid #1dde85;
 }
 
+.skill:hover .skill__icon {
+	fill: #1dde85;
+}
+
+.skill:hover .skill__title {
+	color: #1dde85;
+}
+
+.skill:hover .skill__description {
+	color: #454546;
+}
 
 .skill__icon {
-	margin: 0 auto;
-
-	background-image: url("../img/our-skills-sprite.png");
-	background-repeat: no-repeat;
-}
-
-.skill__icon--development {
-	width: 40px;
-	height: 30px;
-
-	background-position: -0 -32px;
-}
-
-.skill__icon--responsive {
-	width: 30px;
-	height: 28px;
-
-	background-position: -62px -62px;
-}
-
-.skill__icon--clean-design {
-	width: 32px;
-	height: 29px;
-
-	background-position: -0 -62px;
-}
-
-.skill__icon--graphic-design {
-	width: 36px;
-	height: 21px;
-	margin-top: 17px;
-
-	background-position: -0 -91px;
-}
-
-.skill__icon--photography {
-	width: 32px;
-	height: 26px;
-	margin-top: 15px;
-
-	background-position: -104px -26px;
-}
-
-.skill__icon--photo-editing {
-	width: 32px;
-	height: 32px;
-	margin-top: 10px;
-
-	background-position: -0 -0;
+	fill: #454546;
 }
 
 .skill__title {
-	margin-top: 20px;
+	margin-top: 10px;
 
 	font-weight: 500;
 	font-size: 24px;
