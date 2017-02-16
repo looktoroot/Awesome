@@ -306,6 +306,7 @@ body {
 
 .skill__icon {
 	fill: #454546;
+	transition: 0.5s;
 }
 
 .skill__title {
@@ -315,6 +316,7 @@ body {
 	font-size: 24px;
 	color: #454546;
 	font-style: normal;
+	transition: 0.7s;
 }
 
 .skill__description {
@@ -325,4 +327,5 @@ body {
 	line-height: 30px;
 	color: #8f8e91;
 	font-style: normal;
+	transition: 0.7s;
 }
