@@ -191,6 +191,7 @@ body {
 	color: #ffffff;
 	text-transform: uppercase;
 	text-decoration: none;
+	font-style: normal;
 }
 
 .page-header__text {
@@ -223,7 +224,7 @@ body {
 }
 
 .page-content {
-	height: 2000px;
+	height: 3000px;
 
 	background-color: #fffcf4;
 }
@@ -243,13 +244,16 @@ body {
 	text-align: center;
 }
 
-.welcome-block__title {
-	margin-bottom: 45px;
-
+.section-title {
 	font-weight: 500;
 	font-size: 30px;
+	text-align: center;
 	color: #454546;
 	font-style: normal;
+}
+
+.welcome-block__title {
+	margin-bottom: 45px;
 }
 
 .welcome-block__title--font {
@@ -344,12 +348,6 @@ body {
 
 .teams__title {
 	margin-bottom: 70px;
-
-	font-weight: 500;
-	font-size: 30px;
-	text-align: center;
-	color: #454546;
-	font-style: normal;
 }
 
 .person {
@@ -456,4 +454,40 @@ body {
 	opacity: 0;
 
 	transition: 0.1s;
+}
+
+.works__title {
+	margin-top: 110px;
+}
+
+.works__nav {
+	margin-top: 50px;
+}
+
+.works__nav-list {
+	text-align: center;
+}
+
+.works__nav-item {
+	display: inline-block;
+	margin-right: 40px;
+	padding-bottom: 10px;
+}
+
+.works__nav-item a {
+	font-weight: 300;
+	font-size: 18px;
+	color: #454546;
+	text-decoration: none;
+	font-style: normal;
+
+	transition: 0.2s;
+}
+
+.works__nav-item:hover {
+	border-bottom: 1px solid #1dde85;
+}
+
+.works__nav-item:hover a {
+	color: #1dde85;
 }
