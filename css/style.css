@@ -183,6 +183,7 @@ body {
 .page-header__nav-item {
 	display: inline-block;
 	margin-left: 40px;
+	padding-bottom: 10px;
 }
 
 
@@ -192,6 +193,15 @@ body {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-style: normal;
+	transition: 0.2s;
+}
+
+.page-header__nav-item:hover a {
+	color: #1dde85;
+}
+
+.page-header__nav-item:hover {
+	border-bottom: 1px solid #1dde85;
 }
 
 .page-header__text {
