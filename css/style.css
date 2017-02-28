@@ -193,6 +193,7 @@ body {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-style: normal;
+
 	transition: 0.2s;
 }
 
@@ -466,12 +467,18 @@ body {
 	transition: 0.1s;
 }
 
+.works {
+	font-size: 0;
+}
+
 .works__title {
 	margin-top: 110px;
 }
 
 .works__nav {
 	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 0 100px;
 }
 
 .works__nav-list {
@@ -482,6 +489,8 @@ body {
 	display: inline-block;
 	margin-right: 40px;
 	padding-bottom: 10px;
+
+	border-bottom: 1px solid transparent;
 }
 
 .works__nav-item a {
@@ -500,4 +509,13 @@ body {
 
 .works__nav-item:hover a {
 	color: #1dde85;
+}
+
+.work {
+	display: inline-block;
+	margin-bottom: 40px;
+
+	vertical-align: top;
+
+	background-color: #4f4239;
 }
