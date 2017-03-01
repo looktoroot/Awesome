@@ -235,8 +235,6 @@ body {
 }
 
 .page-content {
-	height: 4000px;
-
 	background-color: #fffcf4;
 }
 
@@ -541,6 +539,7 @@ body {
 	color: #454546;
 	text-decoration: none;
 
+	background-color: transparent;
 	border: 1px solid #454546;
 
 	transition: 0.2s;
@@ -568,6 +567,7 @@ body {
 	width: 270px;
 	margin-top: 55px;
 	margin-right: 16px;
+	margin-bottom: 100px;
 
 	vertical-align: top;
 	text-align: center;
@@ -667,4 +667,103 @@ body {
 
 	font-size: 14px;
 	line-height: 40px;
+}
+
+.page-feedback {
+	height: 500px;
+	padding-top: 10px;
+
+	background: url("../img/bg_feedback.jpg") 0 0/cover no-repeat #656566;
+}
+
+.page-feedback__title {
+	margin-top: 20px;
+
+	font-weight: 400;
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+.feedback__form {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.feedback__form-item {
+	width: 440px;
+	height: 50px;
+	margin-bottom: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+	font-weight: 100;
+	font-size: 16px;
+	font-family: roboto, sans-serif;
+	color: #fffcf4;
+	font-style: italic;
+
+	background-color: transparent;
+	border: 1px solid #b2b3b4;
+}
+
+/*.feedback__form-item:focus {
+	border-color: #1dde85;
+}*/
+
+.feedback__form-item--name {
+	float: left;
+}
+
+.feedback__form-item--email {
+	float: right;
+}
+
+.feedback__form-item--message {
+	width: 100%;
+	height: 215px;
+	padding-top: 15px;
+
+	resize: none;
+}
+
+.feedback__form-item::-webkit-input-placeholder {
+	color: #fffcf4;
+}
+.feedback__form-item::-moz-placeholder {
+	color: #fffcf4;
+}
+.feedback__form-item:-moz-placeholder {
+	color: #fffcf4;
+}
+.feedback__form-item:-ms-input-placeholder {
+	color: #fffcf4;
+}
+
+
+.feedback__form-item:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.feedback__form-item:focus::-moz-placeholder {
+	color: transparent;
+}
+.feedback__form-item:focus:-moz-placeholder {
+	color: transparent;
+}
+.feedback__form-item:focus:-ms-input-placeholder {
+	color: transparent;
+}
+
+.feedback__form-submit {
+	margin: 0 auto;
+
+	font-weight: 100;
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	color: #fffcf4;
+	font-style: normal;
+
+	border-color: #b2b3b4;
 }
