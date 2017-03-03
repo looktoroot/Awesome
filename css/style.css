@@ -5,8 +5,8 @@
 	font-style: normal;
 
 	src: local("Roboto"),
-	url("/font/roboto-regular.woff2"),
-	url("/font/roboto-regular.woff");
+	url("../font/roboto-regular.woff2"),
+	url("../font/roboto-regular.woff");
 }
 
 @font-face {
@@ -15,8 +15,8 @@
 	font-style: normal;
 
 	src: local("Roboto"),
-	url("/font/roboto-medium.woff2"),
-	url("/font/roboto-medium.woff");
+	url("../font/roboto-medium.woff2"),
+	url("../font/roboto-medium.woff");
 }
 
 @font-face {
@@ -25,8 +25,8 @@
 	font-style: normal;
 
 	src: local("Roboto"),
-	url("/font/roboto-light.woff2"),
-	url("/font/roboto-light.woff");
+	url("../font/roboto-light.woff2"),
+	url("../font/roboto-light.woff");
 }
 
 @font-face {
@@ -35,8 +35,8 @@
 	font-style: normal;
 
 	src: local("Roboto"),
-	url("/font/roboto-thin.woff2"),
-	url("/font/roboto-thin.woff");
+	url("../font/roboto-thin.woff2"),
+	url("../font/roboto-thin.woff");
 }
 
 @font-face {
@@ -45,8 +45,8 @@
 	font-style: italic;
 
 	src: local("Roboto"),
-	url("/font/roboto-thinitalic.woff2"),
-	url("/font/roboto-thinitalic.woff");
+	url("../font/roboto-thinitalic.woff2"),
+	url("../font/roboto-thinitalic.woff");
 }
 
 @font-face {
@@ -55,8 +55,8 @@
 	font-style: normal;
 
 	src: local("Roboto Slab"),
-	url("/font/robotoslab-regular.woff2"),
-	url("/font/robotoslab-regular.woff");
+	url("../font/robotoslab-regular.woff2"),
+	url("../font/robotoslab-regular.woff");
 }
 
 @font-face {
@@ -65,8 +65,8 @@
 	font-style: normal;
 
 	src: local("Roboto Slab"),
-	url("/font/robotoslab-thin.woff2"),
-	url("/font/robotoslab-thin.woff");
+	url("../font/robotoslab-thin.woff2"),
+	url("../font/robotoslab-thin.woff");
 }
 
 @font-face {
@@ -75,8 +75,8 @@
 	font-style: normal;
 
 	src: local("Exo"),
-	url("/font/exo-regular.woff2"),
-	url("/font/exo-regular.woff");
+	url("../font/exo-regular.woff2"),
+	url("../font/exo-regular.woff");
 }
 
 @font-face {
@@ -85,8 +85,8 @@
 	font-style: normal;
 
 	src: local("Exo"),
-	url("/font/exo-black.woff2"),
-	url("/font/exo-black.woff");
+	url("../font/exo-black.woff2"),
+	url("../font/exo-black.woff");
 }
 
 @font-face {
@@ -95,8 +95,8 @@
 	font-style: normal;
 
 	src: local("Pacifico"),
-	url("/font/pacifico-regular.woff2"),
-	url("/font/pacifico-regular.woff");
+	url("../font/pacifico-regular.woff2"),
+	url("../font/pacifico-regular.woff");
 }
 
 
