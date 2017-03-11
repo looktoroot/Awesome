@@ -108,9 +108,10 @@
 
 
 body {
+	min-width: 1170px;
+
 	font-size: 14px;
 	font-family: roboto, sans-serif;
-	min-width: 1170px;
 }
 
 .clearfix::after {
@@ -373,6 +374,7 @@ body {
 
 	background-color: #787878;
 }
+
 
 .person__info-container {
 	position: absolute;
